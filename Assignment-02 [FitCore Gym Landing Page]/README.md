@@ -1,5 +1,6 @@
 # 🏋️‍♂️ FitCore Gym Landing Page
 
+## 📄 Overview
 A modern and responsive landing page designed for **FitCore Gym**, showcasing professional layout techniques, typography, and CSS styling principles.  
 This project was built as part of the **Route Frontend Diploma** to demonstrate practical HTML & CSS skills.
 
@@ -16,6 +17,16 @@ This project was built as part of the **Route Frontend Diploma** to demonstrate 
 - Utilize `float` and `clear` effectively for layout and content positioning.  
 - Apply text and font properties (`text-transform`, `line-height`, `font-weight`, etc.) for polished visual presentation.  
 - Structure content with semantic HTML and use `<div>` and `<span>` appropriately for layout and inline styling.  
+
+---
+
+## 🛠 Technologies Used
+
+This landing page project was built using:
+
+- **HTML** for content structure and semantic elements.  
+- **CSS** for styling, layout, and responsive design, including external stylesheets and various selectors.  
+- **Web Layout Concepts** like box model, display properties, and float/clear for positioning.
 
 ---
 
