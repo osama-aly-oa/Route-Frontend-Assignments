@@ -48,7 +48,7 @@ It’s a personal **portfolio webpage** built entirely with **HTML5**, designed 
 
 ## 🚀 How to View
 1. Clone or download the repository.  
-2. Navigate to the `Project-1-HTML-CSS` folder.  
+2. Navigate to the `Assignment-01 [HTML Personal-Portfolio]` folder.  
 3. Open the `index.html` file in your browser.
 
 ---
