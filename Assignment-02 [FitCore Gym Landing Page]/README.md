@@ -1,12 +1,20 @@
 # 🏋️‍♂️ FitCore Gym Landing Page
 
+## 📌 Table of Contents
+
+- [Overview](#-overview)
+- [Learning Objectives](#-learning-objectives)
+- [Technologies Used](#-technologies-used)
+- [How to View](#-how-to-view)
+- [Key Features](#-key-features)
+- [Acknowledgments](#-acknowledgments)
+
 ## 📄 Overview
+
 A modern and responsive landing page designed for **FitCore Gym**, showcasing professional layout techniques, typography, and CSS styling principles.  
 This project was built as part of the **Route Frontend Diploma** to demonstrate practical HTML & CSS skills.
 
 ![FitCore Gym Preview](https://raw.githubusercontent.com/osama-aly-oa/Route-Frontend-Assignments/main/Assignment-02%20%5BFitCore%20Gym%20Landing%20Page%5D/FitCore-gym-output-image.png)
-
----
 
 ## 🎯 Learning Objectives
 
@@ -18,8 +26,6 @@ This project was built as part of the **Route Frontend Diploma** to demonstrate 
 - Apply text and font properties (`text-transform`, `line-height`, `font-weight`, etc.) for polished visual presentation.  
 - Structure content with semantic HTML and use `<div>` and `<span>` appropriately for layout and inline styling.  
 
----
-
 ## 🛠 Technologies Used
 
 This landing page project was built using:
@@ -28,15 +34,11 @@ This landing page project was built using:
 - **CSS** for styling, layout, and responsive design, including external stylesheets and various selectors.  
 - **Web Layout Concepts** like box model, display properties, and float/clear for positioning.
 
----
-
 ## 🚀 How to View
 
 1. Clone or download the repository.  
 2. Navigate to the `Assignment-02 [FitCore Gym Landing Page]` folder.  
 3. Open the `index.html` file in your browser.  
-
----
 
 ## 🧠 Key Features
 
@@ -45,8 +47,6 @@ This landing page project was built using:
 - Semantic HTML structure  
 - Organized stylesheet with reusable classes  
 - Includes call-to-action sections, feature cards, testimonials, and contact form  
-
----
 
 ## 📚 Acknowledgments
 
