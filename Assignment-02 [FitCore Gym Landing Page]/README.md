@@ -1,9 +1,9 @@
 # 🏋️‍♂️ FitCore Gym Landing Page
 
-![FitCore Gym Preview](https://raw.githubusercontent.com/osama-aly-oa/Route-Frontend-Assignments/main/Assignment-02%20%5BFitCore%20Gym%20Landing%20Page%5D/FitCore-gym-output-image.png)
-
 A modern and responsive landing page designed for **FitCore Gym**, showcasing professional layout techniques, typography, and CSS styling principles.  
 This project was built as part of the **Route Frontend Diploma** to demonstrate practical HTML & CSS skills.
+
+![FitCore Gym Preview](https://raw.githubusercontent.com/osama-aly-oa/Route-Frontend-Assignments/main/Assignment-02%20%5BFitCore%20Gym%20Landing%20Page%5D/FitCore-gym-output-image.png)
 
 ---
 
