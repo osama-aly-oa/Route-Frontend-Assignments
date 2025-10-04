@@ -42,7 +42,7 @@ It’s a personal **portfolio webpage** built entirely with **HTML5**, designed 
 ---
 
 ## 📸 Preview 
-![output-portfolio](Assignment-01%20%5BHTML%20Personal-Portfolio%5D/output-2.png)
+![Portfolio Output](https://raw.githubusercontent.com/osama-aly-oa/Route-Frontend-Assignments/main/Assignment-01%20%5BHTML%20Personal-Portfolio%5D/output-img.png)
 
 ---
 
