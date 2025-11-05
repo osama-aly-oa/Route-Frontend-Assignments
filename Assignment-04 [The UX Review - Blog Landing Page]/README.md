@@ -10,10 +10,8 @@ It demonstrates advanced Flexbox techniques, responsive design with media querie
 ## 📸 Preview Image  
 
 **Desktop View**  
-![The UX Review Desktop Preview](https://raw.githubusercontent.com/osama-aly-oa/Route-Frontend-Assignments/main/Assignment-XX%20%5BThe%20UX%20Review%20-%20Blog%20Landing%20Page%5D/ux-review-output-desktop-img.png)  
+![The UX Review Desktop Preview](https://raw.githubusercontent.com/osama-aly-oa/Route-Frontend-Assignments/main/Assignment-04%20%5BThe%20UX%20Review%20-%20Blog%20Landing%20Page%5D/ux-review-output-desktop-img.png)  
 
-**Mobile View**  
-![The UX Review Mobile Preview](https://raw.githubusercontent.com/osama-aly-oa/Route-Frontend-Assignments/main/Assignment-XX%20%5BThe%20UX%20Review%20-%20Blog%20Landing%20Page%5D/ux-review-output-mobile-img.png)
 ---
 
 ## 🎯 Learning Objectives  
