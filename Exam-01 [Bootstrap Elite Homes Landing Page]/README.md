@@ -6,13 +6,19 @@ This project showcases a clean UI with a hero search section, featured propertie
 
 ---
 
+## 🌐 Live Demo  
+
+You can explore the full responsiveness of the project — including the mobile layout, Bootstrap grid behavior, and all interactive components — in a professional, polished experience:
+
+🔗 **Live Demo:** https://bootstrap-elite-homes.netlify.app/
+
+
+---
+
 ## 📸 Preview Image  
 
 **Desktop View**  
 ![Elite Homes Desktop Preview](./bootstrap-elite-homes-output-image.png)
-
-**Mobile View**  
-![Elite Homes Mobile Preview](./ux-review-output-mobile-img.png)
 
 ---
 
@@ -42,7 +48,7 @@ This project showcases a clean UI with a hero search section, featured propertie
 
 1. Clone or download the repository.  
 2. Navigate to the folder:  
-   `Assignment-04 [Bootstrap Elite Homes Landing Page]`  
+   `Exam-01 [Bootstrap Elite Homes Landing Page]`  
 3. Open the `index.html` file in your browser.
 
 ---
