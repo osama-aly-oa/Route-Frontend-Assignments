@@ -34,13 +34,6 @@ It’s a personal **portfolio webpage** built entirely with **HTML5**, designed 
 
 ---
 
-## 🧑‍💻 Author
-**Osama Aly**  
-- 🌐 [LinkedIn](https://www.linkedin.com/in/osama-aly-oa/)  
-- 💻 [GitHub](https://github.com/osama-aly-oa)
-
----
-
 ## 📸 Preview 
 ![Portfolio Output](https://raw.githubusercontent.com/osama-aly-oa/Route-Frontend-Assignments/main/Assignment-01%20%5BHTML%20Personal-Portfolio%5D/output-img.png)
 
