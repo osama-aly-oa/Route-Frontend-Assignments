@@ -1,4 +1,4 @@
-# Assignment 7 – JavaScript Challenges
+# Assignment 6 – JavaScript Challenges
 
 ## 📌 Overview
 This assignment focuses on practicing **JavaScript fundamentals** through **20 hands-on challenges** designed to reinforce core concepts learned during the week.
