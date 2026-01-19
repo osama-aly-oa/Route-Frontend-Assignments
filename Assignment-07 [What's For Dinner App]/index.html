@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What's For Dinner</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/1046/1046857.png">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg pt-2 pb-2 bg-white shadow-sm">
+        <div class="container">
+            <a class="navbar-brand text-dark align-items-center" href="#">
+                <div class="logo-icon"><i class="fas fa-utensils"></i></div>
+                <div class="content">
+                    <p class="mb-0">What's For Dinner</p>
+                    <p class=" mb-0" style="font-size: 0.8rem; color: #888; font-weight: 400;">Your
+                        daily meal inspiration</p>
+                </div>
+            </a>
+            <div class="ms-auto d-flex gap-3 align-items-center">
+                <i class="fas fa-bookmark fs-5 nav-icon"></i>
+                <i class="fas fa-history fs-5 nav-icon"></i>
+                <i class="fas fa-cog fs-5 nav-icon"></i>
+                <img role="button" src="https://i.pravatar.cc/100?img=12" alt="User" class="user-avatar">
+            </div>
+        </div>
+    </nav>
+
+    <div id="recipe-section" class="css-container">
+        <div class="card recipe-card">
+            <div class="row g-0 h-100">
+
+                <div class="col-lg-5 image-col">
+                    <img id="recipe-img" src="" alt="food-image" class="food-image">
+
+                    <div class="rating-badge">
+                        <i class="fa-solid fa-star text-warning mx-1"></i>
+                        <span id="recipe-rating" class="fs-6 fw-bold"></span>
+                        <span id="recipe-reviews" class="me-1 text-muted"></span>
+                        <span class="text-muted">reviews)</span>
+                    </div>
+
+                    <div class="stats-container">
+                        <div class="stat-item">
+                            <i class="fa-regular fa-clock"></i>
+                            <h6>Prep Time</h6>
+                            <span id="prep-time"></span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fa-solid fa-fire-burner text-danger"></i>
+                            <h6>Cook Time</h6>
+                            <span id="cook-time"></span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fa-solid fa-user-group text-primary"></i>
+                            <h6>Servings</h6>
+                            <span id="servings"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-7 content-col">
+
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div>
+                            <span id="recipe-difficulty" class="badge badge-soft-green rounded-pill px-3 py-2"></span>
+                            <span id="recipe-type" class="badge badge-soft-blue rounded-pill px-3 py-2 ms-1"></span>
+                            <h2 id="recipe-title" class="recipe-title"></h2>
+                            <p id="recipe-desc" class="recipe-desc"></p>
+                        </div>
+                        <div class="d-flex gap-2">
+                            <button class="btn btn-icon"><i class="fas fa-bookmark secondary-orange"></i></button>
+                            <button class="btn btn-icon"><i class="fas fa-share-alt secondary-orange"></i></button>
+                        </div>
+                    </div>
+
+                    <div id="time-warning" class="alert custom-alert d-flex align-items-center mb-4 d-none">
+                        <i class="fas fa-triangle-exclamation me-3 alert-icon"></i>
+                        <div>
+                            <p class="fw-semibold text-danger mb-1">Extended Preparation Time</p>
+                            <p class="text-danger small mb-0">
+                                This recipe requires more than 45 minutes to prepare. Plan accordingly!
+                            </p>
+                        </div>
+                    </div>
+
+
+
+
+                    <ul class="nav nav-pills justify-content-between mb-5 custom-tabs" id="pills-tab" role="tablist">
+                        <li class="nav-item col-sm-12 col-md-3 " role="presentation">
+                            <button class="nav-link active fw-bold" id="ingredients-tab" data-bs-toggle="pill"
+                                data-bs-target="#ingredients" type="button">
+                                <i class="fas fa-list-ul me-2"></i>Ingredients
+                            </button>
+                        </li>
+                        <li class="nav-item col-sm-12 col-md-3" role="presentation">
+                            <button class="nav-link fw-bold" id="instructions-tab" data-bs-toggle="pill"
+                                data-bs-target="#instructions" type="button">
+                                <i class="fas fa-book-open me-2"></i>Instructions
+                            </button>
+                        </li>
+                        <li class="nav-item col-sm-12 col-md-3" role="presentation">
+                            <button class="nav-link fw-bold " id="nutrition-tab" data-bs-toggle="pill"
+                                data-bs-target="#nutrition" type="button">
+                                <i class="fas fa-chart-pie me-2"></i>Nutrition
+                            </button>
+                        </li>
+                        <li class="nav-item col-sm-12 col-md-3" role="presentation">
+                            <button class="nav-link fw-bold" id="tips-tab" data-bs-toggle="pill" data-bs-target="#tips"
+                                type="button">
+                                <i class="fas fa-lightbulb me-2"></i>Chef's Tips
+                            </button>
+                        </li>
+                    </ul>
+
+
+
+                    <div class="tab-content tab-content-scroll " id="recipeTabContent">
+
+                        <div class="tab-pane fade show active" id="ingredients" role="tabpanel">
+                            <ul id="ingredient-list" class="ingredient-list">
+                            </ul>
+                        </div>
+
+                        <div class="tab-pane fade" id="instructions" role="tabpanel">
+                        </div>
+
+                        <div class="tab-pane fade overflow-hidden" id="nutrition" role="tabpanel">
+                        </div>
+
+                        <div class="tab-pane fade" id="tips" role="tabpanel">
+                        </div>
+
+                    </div>
+
+                    <button type="button" class="btn-refresh mt-3"><i class="fas fa-sync-alt me-2"></i> Try Another
+                        Recipe</button>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
