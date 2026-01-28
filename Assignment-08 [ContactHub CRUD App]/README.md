@@ -15,13 +15,9 @@ Check out the live application here:
 
 ## 📸 Project Previews
 
-### 1. Desktop View
-*A comprehensive dashboard showing the contact grid, sidebar statistics, and quick actions optimized for large screens.*
-![Desktop View](./screenshots/contactHub-output-image.png)
-
-### 2. Mobile View
-*Fully responsive layout that adapts the grid, modal, and navigation for seamless use on mobile devices.*
-![Mobile View](./screenshots/contactHub-output-mobile-image.png)
+### Dashboard Overview
+*A comprehensive view of the application featuring the contact grid, real-time statistics, and quick action controls.*
+![Dashboard View](./screenshots/contactHub-output-image.png)
 
 ---
 
